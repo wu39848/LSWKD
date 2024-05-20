@@ -93,28 +93,11 @@ def train_one_epoch(args, model, teacher,optimizer, train_loader, text_embed,lr_
         with torch.cuda.amp.autocast(enabled=args.use_amp):
             ret_dict2, tb_dict, disp_dict = model(batch)
             #batch2=batch
-        # student_score=teacher.module.task_head.cls_head(ret_dict2['adapter_feats'].float())
-        # teacher_score = ret_dict1['seg_scores']
-        # batch1['test_x4_split'] = model.module.test_x4_split
-        # batch1=model.module.vfe(batch1)
-        # batch1=model.module.backbone_3d(batch1)
-        # batch1=model.module.adapter(batch1)
-        # batch1=teacher.module.binary_head(batch1)
-        # batch1=teacher.module.task_head(batch1)
 
-        # soft_loss = nn.KLDivLoss(reduction="batchmean")
-        # temp = 3
-        # student_score=batch1['seg_scores']
-        # teacher_score = ret_dict1['seg_scores']
-        # kdloss = soft_loss(
-        #     F.log_softmax(student_score / temp, dim=1),
-        #     F.softmax(teacher_score / temp, dim=1)
-        # )
 
         kdloss = (1 - torch.nn.CosineSimilarity()
         (ret_dict2['adapter_feats'], ret_dict1['adapter_feats'])).mean()
-        # teacher_score=ret_dict1['seg_scores']
-        # teacher.task_head(batch)
+     
 
         loss = ret_dict2['loss']+kdloss
         tb_dict['kdloss']= kdloss.item()

@@ -4,7 +4,7 @@ import datetime
 import glob
 import os
 from pathlib import Path
-os.environ['CUDA_VISIBLE_DEVICES']='0,1'
+
 import torch
 import torch.nn as nn
 

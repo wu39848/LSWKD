@@ -1,5 +1,15 @@
 #### Training Teacher Model
-Following PLA's steps to train Teacher Model,pcseg/models/head/caption_head.py is our modified code,which accomplishes Point-discriminative Contrastive Learning.
+Following PLA to train Teacher Model,pcseg/models/head/caption_head.py is our modified code,which accomplishes Point-discriminative Contrastive Learning.
+### Model Zoo
+- semantic segmentation
+
+    | Dataset | Partition | hIoU / mIoU(B) / mIoU(N) | Path |
+    |:---:|:---:|:---:|:---:|
+    | ScanNet | B15/N4 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21200&parId=240D624894A89ED0%21190&o=OneUp) |
+    | ScanNet | B12/N7 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21198&parId=240D624894A89ED0%21190&o=OneUp) |
+    | ScanNet | B10/N9 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21199&parId=240D624894A89ED0%21190&o=OneUp) |
+    | S3DIS | B8/N4 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21194&parId=240D624894A89ED0%21190&o=OneUp) |
+    | S3DIS | B6/N6 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21196&parId=240D624894A89ED0%21190&o=OneUp) |
 #### Training Student Model
 
 ```bash
@@ -33,10 +43,10 @@ For instance,
 
     | Dataset | Partition | hIoU / mIoU(B) / mIoU(N) | Path |
     |:---:|:---:|:---:|:---:|
-    | ScanNet | B15/N4 | 68.2 / 68.6 / 67.8 | [ckpt]() |
-    | ScanNet | B12/N7 | 56.8 / 69.2 / 48.2 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/EVl7SdeUEPFAvrj2xnWSb-sBCOtWYyVOwBo6ggFb9x7dNA?e=feZaxH) |
-    | ScanNet | B10/N9 | 54.5 / 74.9 / 42.8 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/Ef0P_6XraDpCo0RRgOJ1wGQB-xOW7T6lecvVRi5P90Edbw?e=hqrP8X) |
-    | S3DIS | B8/N4 |  39.0 / 57.0 / 29.6 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/EYIW4SNX5B9Go_LKiim1KFEB_abYv0bDZMggE_6Ifjau0g?e=8BD0K3) |
-    | S3DIS | B6/N6 | 41.1 / 54.2 / 33.0 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/EeNYtkS3pmhAvc3Hxj7__SwB8SMzZdzmljRtCYuYG8NHcA?e=aC0aE2) |
+    | ScanNet | B15/N4 | 68.2 / 68.6 / 67.8 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21193&parId=240D624894A89ED0%21190&o=OneUp) |
+    | ScanNet | B12/N7 | 56.8 / 69.2 / 48.2 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21195&parId=240D624894A89ED0%21190&o=OneUp) |
+    | ScanNet | B10/N9 | 54.5 / 74.9 / 42.8 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21191&parId=240D624894A89ED0%21190&o=OneUp) |
+    | S3DIS | B8/N4 |  39.0 / 57.0 / 29.6 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21194&parId=240D624894A89ED0%21190&o=OneUp) |
+    | S3DIS | B6/N6 | 41.1 / 54.2 / 33.0 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21192&parId=240D624894A89ED0%21190&o=OneUp) |
 
 

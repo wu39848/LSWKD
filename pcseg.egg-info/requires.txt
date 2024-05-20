@@ -1,0 +1,6 @@
+numpy
+tensorboardX
+easydict
+pyyaml
+tqdm
+SharedArray

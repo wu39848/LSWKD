@@ -1,0 +1,14 @@
+# ninja log v5
+0	14202	1690471556504387717	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/cuda.o	372efce22fe90868
+0	15988	1690471558292369841	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_ops.o	e64228cfdd04684d
+0	18348	1690471560648346281	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_api.o	aeb5c20236a6ef22
+2	13864	1690471575012202644	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/cuda.o	8995d16032d8b487
+3	15618	1690471576764185122	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_ops.o	38d94236e157cce1
+3	18146	1690471579288159882	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_api.o	f54d8d0b607f4e16
+282	27805	1693578615585402680	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/cuda.o	7d524f6dff96699a
+282	32656	1693578620429354396	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_ops.o	ef7ea41f675d5dcc
+282	38488	1693578626257296307	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_api.o	f6c5792f7c14d4e7
+3	26236	1693578654549014360	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/cuda.o	d4362e639844e400
+3	30020	1693578658324976736	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_ops.o	ce12b00423f5c95
+3	36127	1693578664424915957	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_api.o	f269d7e6a7ca877
+3	33373	1693580563409386222	/home/wyt/daima/PLA/pcseg/external_libs/softgroup_ops/build/temp.linux-x86_64-cpython-38/ops/src/softgroup_ops.o	ef7ea41f675d5dcc

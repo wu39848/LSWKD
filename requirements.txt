@@ -1,0 +1,16 @@
+open3d
+numpy
+tensorboardX
+easydict
+pyyaml
+tqdm
+SharedArray
+scipy
+opencv-python
+plyfile
+matplotlib
+scikit-learn
+scikit-image
+pandas
+transformers
+spconv-cu113

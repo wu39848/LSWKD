@@ -1,6 +1,6 @@
 #### Training Teacher Model
 Following PLA to train Teacher Model,pcseg/models/head/caption_head.py is our modified code,which accomplishes Point-discriminative Contrastive Learning.
-### Model Zoo
+### Teacher Model 
 - semantic segmentation
 
     | Dataset | Partition | Path |

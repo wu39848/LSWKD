@@ -4,7 +4,7 @@ Following PLA to train Teacher Model,pcseg/models/head/caption_head.py is our mo
 - semantic segmentation
 
     | Dataset | Partition | Path |
-    |:---:|:---:|:---:|:---:|
+    |:---:|:---:|:---:|
     | ScanNet | B15/N4 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21200&parId=240D624894A89ED0%21190&o=OneUp) |
     | ScanNet | B12/N7 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21198&parId=240D624894A89ED0%21190&o=OneUp) |
     | ScanNet | B10/N9 | [ckpt](https://onedrive.live.com/?cid=240D624894A89ED0&id=240D624894A89ED0%21199&parId=240D624894A89ED0%21190&o=OneUp) |

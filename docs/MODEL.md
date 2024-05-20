@@ -1,4 +1,6 @@
-#### Training
+#### Training Teacher Model
+Following PLA's steps to train Teacher Model,pcseg/models/head/caption_head.py is our modified code,which accomplishes Point-discriminative Contrastive Learning.
+#### Training Student Model
 
 ```bash
 cd tools
@@ -31,7 +33,7 @@ For instance,
 
     | Dataset | Partition | hIoU / mIoU(B) / mIoU(N) | Path |
     |:---:|:---:|:---:|:---:|
-    | ScanNet | B15/N4 | 68.2 / 68.6 / 67.8 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/Ef8xk_X0ortMjC0F8PBQl2wBacVPgO72La8h_ZTDsKj__Q?e=Uq6W8I) |
+    | ScanNet | B15/N4 | 68.2 / 68.6 / 67.8 | [ckpt]() |
     | ScanNet | B12/N7 | 56.8 / 69.2 / 48.2 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/EVl7SdeUEPFAvrj2xnWSb-sBCOtWYyVOwBo6ggFb9x7dNA?e=feZaxH) |
     | ScanNet | B10/N9 | 54.5 / 74.9 / 42.8 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/Ef0P_6XraDpCo0RRgOJ1wGQB-xOW7T6lecvVRi5P90Edbw?e=hqrP8X) |
     | S3DIS | B8/N4 |  39.0 / 57.0 / 29.6 | [ckpt](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3007346_connect_hku_hk/EYIW4SNX5B9Go_LKiim1KFEB_abYv0bDZMggE_6Ifjau0g?e=8BD0K3) |

@@ -1,7 +1,9 @@
 <div align="center">
 
 <h1>LANGUAGE-DRIVEN OPEN-VOCABULARY 3D SEMANTIC SEGMENTATION WITH KNOWLEDGE DISTILLATION</h1>
-
+ <div >
+      <center><img style="width: 230px;" src=""C:\Users\wu\Desktop\framework.png""></center>
+  </div>
 </div>
 
 ### TODO
